@@ -1,0 +1,24 @@
+$mobile: 570px;
+
+#saving-card {
+  justify-items: center;
+  // background: #eff7ff;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  .call-action-text {
+    margin: 54px 0 40px;
+    // justify-self: center;
+  }
+}
+
+@media (max-width: 576px) {
+  #saving-card {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+  }
+}
