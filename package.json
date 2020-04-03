@@ -51,5 +51,8 @@
   "bugs": {
     "url": "https://github.com/OriginFinancial/frontend-challenge/issues"
   },
-  "homepage": "https://github.com/OriginFinancial/frontend-challenge#readme"
+  "homepage": "https://github.com/OriginFinancial/frontend-challenge#readme",
+  "jest": {
+    "moduleNameMapper": { "\\.(svg|jpg|png|css|scss)$": "<rootDir>./styleMock.js" }
+  }
 }
