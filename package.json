@@ -6,6 +6,7 @@
   "dependencies": {
     "@bootstrap-styled/v4": "^3.4.0",
     "@types/numeral": "0.0.27",
+    "acorn": "^7.2.0",
     "bootstrap": "^4.5.0",
     "moment": "^2.25.3",
     "numeral": "^2.0.6",
