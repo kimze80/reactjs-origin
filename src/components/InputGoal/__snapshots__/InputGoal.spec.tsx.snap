@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing InputGoal Should render InputGoal correctly 1`] = `ShallowWrapper {}`;
